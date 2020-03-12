@@ -16,6 +16,10 @@ callFunc2($function); // Hello, World!
 
 /**
  * The difference is, that a Closure must be an anonymous function, where callable also can be a normal function.
+ * 
+ * The main difference between them is that a closure is a class and callable a type.
+ * 
+ * https://stackoverflow.com/questions/29730720/php-type-hinting-difference-between-closure-and-callable
  */
 
 function callFunc3(Closure $closure) {
